@@ -1,0 +1,8 @@
+numpy
+Pillow
+spectral
+opencv-python-headless
+rembg
+matplotlib
+scipy
+onnxruntime
