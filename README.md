@@ -34,16 +34,19 @@ The six steps are orchestrated by `main.py`.
 ``` text
 RGB-Guided-Hyperspectral-Preprocessing/
 ├── README.md
-├── LICENSE
 ├── .gitignore
 ├── requirements.txt
-├── main.py
-├── step1_generate_rgb_from_hsi.py
-├── step2_background_removal.py
-├── step3_remove_white_illumination.py
-├── step4_apply_masks_to_hsi.py
-├── step5_final_simulated_rgb.py
-└── step6_reduction_impact_analysis.py
+├── Code
+    ├── LICENSE
+    ├── run
+    ├── main.py
+    ├── step1_generate_rgb_from_hsi.py
+    ├── step2_background_removal.py
+    ├── step3_remove_white_illumination.py
+    ├── step4_apply_masks_to_hsi.py
+    ├── step5_final_simulated_rgb.py
+    └── step6_reduction_impact_analysis.py
+
 ```
 
 ## Dataset
