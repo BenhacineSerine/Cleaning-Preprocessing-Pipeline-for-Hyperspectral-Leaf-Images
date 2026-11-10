@@ -21,9 +21,9 @@ For this capsule, the samples are organized into two classes: `healthy` and `unh
 
 ### 2.2 Demonstration subset used for the reproducible run
 
-To limit storage requirements and execution time, the capsule is configured to process a subset of **10 samples: five healthy and five unhealthy samples**. This subset is intended for demonstrating and reproducing the complete workflow; it is not the full original dataset.
+To limit storage requirements and execution time, the capsule is configured to process a subset of **10 samples: five healthy and five unhealthy samples**. This subset represents only a portion of the original dataset and is provided for demonstration and reproducibility purposes. It is intended to illustrate and reproduce the complete preprocessing workflow and does not include the full original dataset.
 
-The complete original dataset remains available from its official repository through the link above.
+The complete original dataset remains available through its official repository (see the link above). In this preprocessed version, all unhealthy grapevine leaf samples, originally associated with different biotic and abiotic conditions, have been grouped into a single class labeled "Unhealthy", while healthy samples remain in a separate class labeled "Healthy". No additional samples have been introduced.
 
 ### 2.3 Complete cleaned dataset
 
