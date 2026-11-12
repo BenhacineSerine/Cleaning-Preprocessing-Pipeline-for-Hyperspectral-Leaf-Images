@@ -71,8 +71,10 @@ the original and cleaned dataset records for licence terms and
 attribution requirements. When using the cleaned data, cite both the
 original source and the cleaned dataset.
 
-## Requirements
-
+## Code
+### Code reducibility 
+The Code is publicly accessible through Code Ocean, where its computational reproducibility can be verified and its execution environment can be reused online. The published compute capsule is permanently identified by the DOI: [https://doi.org/10.24433/CO.6981355.v1](https://doi.org/10.24433/CO.6981355.v1).
+### Requirements
 Install the required Python packages with:
 
 ``` bash
@@ -82,7 +84,7 @@ pip install -r requirements.txt
 Main dependencies include `numpy`, `spectral`, `Pillow`,
 `opencv-python-headless`, `rembg`, `matplotlib`, and `scipy`.
 
-## Input data organization
+### Input data organization
 
 Place the original HSI data and illumination templates in the following
 structure:
@@ -98,7 +100,7 @@ structure:
 The input paths in the scripts should match the actual location of your
 data.
 
-## Run the pipeline
+### Run the pipeline
 
 Run all six preprocessing steps in sequence:
 
